@@ -441,7 +441,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '又要开始了吗，再演';
+        if (cps <= 5) return '不想跨越大海吗';
         if (cps <= 8) return 'TCL';
         if (cps <= 10)  return 'TQL';
         if (cps <= 15) return '您';
